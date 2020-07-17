@@ -1,0 +1,19 @@
+{
+  "name": "hw_15_final_work",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Anya__",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^4.5.0",
+    "gulp": "^4.0.2"
+  },
+  "devDependencies": {
+    "autoprefixer": "^9.8.5",
+    "gulp-postcss": "^8.0.0"
+  }
+}
