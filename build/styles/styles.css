@@ -10,7 +10,7 @@ header {
     font-size: 14px;
     border: none;
     color: #004bff;
-    background-color: #E5E5E5; }
+    background-color: #f7f8fc; }
   header option {
     color: #004bff; }
   header .plus {
@@ -48,6 +48,137 @@ main {
     display: flex; }
     main .main__body .main__body--1, main .main__body .main__body--2, main .main__body .main__body--3, main .main__body .main__body--4 {
       width: 25%; }
+    main .main__body .main__body--1 {
+      border-right: 1px solid #ebeff2;
+      padding-right: 30px; }
+    main .main__body .main__body--2 {
+      border-right: 1px solid #ebeff2;
+      padding: 0px 30px 0px 30px; }
+    main .main__body .main__body--3 {
+      border-right: 1px solid #ebeff2;
+      padding: 0px 30px 0px 30px; }
+    main .main__body .main__body--4 {
+      padding-left: 30px; }
+    main .main__body .main__body--2,
+    main .main__body .main__body--3,
+    main .main__body .main__body--4 {
+      color: #334d6e; }
+    main .main__body .main__body--3 h4 {
+      color: #707683;
+      font-weight: 300;
+      margin-bottom: 15px; }
+    main .main__body .main__body h3 {
+      margin-bottom: 20px; }
+    main .main__body .triangle_dwn {
+      color: #dd4c3a;
+      display: inline-block;
+      margin-left: 10px; }
+    main .main__body .triangle_dwn:before {
+      content: "";
+      width: 0;
+      height: 0;
+      border-style: solid;
+      border-width: 3px 3px 0 3px;
+      border-color: #dd4c3a transparent transparent transparent;
+      vertical-align: middle;
+      display: inline-block;
+      margin-right: 6px; }
+    main .main__body .triangle_up {
+      color: #27be88;
+      display: inline-block;
+      margin-left: 10px; }
+    main .main__body .triangle_up:before {
+      content: "";
+      width: 0;
+      height: 0;
+      border-style: solid;
+      border-width: 0px 3px 3px 3px;
+      border-color: transparent transparent #27be88 transparent;
+      vertical-align: middle;
+      display: inline-block;
+      margin-right: 6px; }
+    main .main__body .per__cent h2 {
+      color: #2ed47a;
+      font-size: 3.6em;
+      display: inline-block;
+      margin-right: 15px;
+      line-height: 40px;
+      margin-bottom: 15px; }
+    main .main__body .blue {
+      color: #004bff;
+      display: inline-block;
+      width: 15px;
+      text-align: center; }
+    main .main__body .blue__2 {
+      color: #004bff;
+      display: inline-block;
+      width: 45px;
+      text-align: center; }
+    main .main__body .errors p {
+      color: #dd4c3a; }
+    main .main__body .warnings p {
+      color: #f18f1c; }
+    main .main__body .notices p {
+      color: #109cf1; }
+    main .main__body .score {
+      width: 140px;
+      display: inline-block; }
+    main .main__body .inline {
+      display: inline-block; }
+    main .main__body .ring__1::before {
+      content: "";
+      width: 3px;
+      height: 3px;
+      border: 2px solid #004bff;
+      border-radius: 50%;
+      display: inline-block;
+      margin-right: 10px; }
+    main .main__body .ring__2::before {
+      content: "";
+      width: 3px;
+      height: 3px;
+      border: 2px solid #4078ff;
+      border-radius: 50%;
+      display: inline-block;
+      margin-right: 10px; }
+    main .main__body .ring__3::before {
+      content: "";
+      width: 3px;
+      height: 3px;
+      border: 2px solid #80a5ff;
+      border-radius: 50%;
+      display: inline-block;
+      margin-right: 10px; }
+    main .main__body .ring__4::before {
+      content: "";
+      width: 3px;
+      height: 3px;
+      border: 2px solid #eea69d;
+      border-radius: 50%;
+      display: inline-block;
+      margin-right: 10px; }
+    main .main__body .circle__1::before {
+      content: "";
+      width: 5px;
+      height: 5px;
+      background-color: #f18f1c;
+      border-radius: 50%;
+      display: inline-block;
+      margin-right: 10px;
+      vertical-align: middle; }
+    main .main__body .circle__2::before {
+      content: "";
+      width: 5px;
+      height: 5px;
+      background-color: #27be88;
+      border-radius: 50%;
+      display: inline-block;
+      margin-right: 10px;
+      vertical-align: middle; }
+    main .main__body .circle__1 P {
+      display: inline-block; }
+    main .main__body .circle__2 P {
+      display: inline-block; }
 
 * {
   margin: 0;
@@ -58,7 +189,7 @@ main {
   outline: none; }
 
 body {
-  background-color: #E5E5E5;
+  background-color: #f7f8fc;
   font-family: "Poppins", sans-serif;
   font-weight: 500;
   font-size: 12px; }
