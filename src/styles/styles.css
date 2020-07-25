@@ -212,4 +212,44 @@ h3 {
   margin: 0 auto;
   width: 1089px; }
 
+@media (max-width: 575.98px) {
+  body {
+    font-size: 14px;
+    padding: 10px; }
+
+  .wrapper {
+    width: 100%; }
+
+  header {
+    margin: 10px 0px 8px 0px; }
+
+  h1 {
+    font-weight: bold;
+    font-size: 20px; }
+
+  main {
+    padding: 10px; }
+    main .blue__2 {
+      width: 60px; }
+    main .main__body--1 {
+      border-right: none;
+      padding: 10px 5px; }
+    main .main__body--2 {
+      border-top: 1px solid #ebeff2;
+      border-right: none;
+      padding: 10px 5px; }
+    main .main__body--3 {
+      border-top: 1px solid #ebeff2;
+      border-right: none;
+      padding: 10px 5px; }
+    main .main__body--4 {
+      border-top: 1px solid #ebeff2;
+      padding: 10px 5px; }
+
+  main .main__body .main__body--1, main .main__body .main__body--2, main .main__body .main__body--3, main .main__body .main__body--4 {
+    width: 100%; }
+
+  main .main__body {
+    padding-top: 0px; } }
+
 /*# sourceMappingURL=styles.css.map */
