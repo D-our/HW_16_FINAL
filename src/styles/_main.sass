@@ -1,6 +1,8 @@
 main
   background-color: #ffffff
-  padding: 20px
+  padding: 30px
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05)
+  border-radius: 5px
   .main__header
     display: flex
     align-items: center
@@ -19,11 +21,15 @@ main
     margin-right: 15px
     color: #c2cfe0
   .main__body
-    display: flex
     padding-top: 30px
     border-top: 1px solid #ebeff2
     .main__body--1,.main__body--2,.main__body--3,.main__body--4
-      width: 25%
+      display: inline-block
+      vertical-align: top
+      width: 24.7%
+      min-width: 260px
+      min-height: 260px
+      position: relative
     .main__body--1
       border-right: 1px solid #ebeff2
       padding-right: 30px
@@ -155,6 +161,14 @@ main
       display: inline-block
     .circle__2 P
       display: inline-block
+
+    .my__graph
+
+    .graph
+      margin: 10px 0px
+      position: absolute
+      bottom: 0
+      width: 80%
 
 
 
